@@ -8,10 +8,11 @@ export default function MainLayout() {
   return (
     <>
     <Navbar/>
-
-        <Outlet/>
-
+  <main className="w-full py-6">
+        < Outlet />
+      </main>
     <Footer/>
+
     
     </>
   )
